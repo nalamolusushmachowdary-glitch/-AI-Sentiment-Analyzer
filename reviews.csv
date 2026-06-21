@@ -1,0 +1,8 @@
+Review,Sentiment,Confidence
+I love this product. It is amazing!,POSITIVE,95.5
+"""This is the worst service""",NEGATIVE,90.0
+i love you,POSITIVE,90.0
+im crying,NEUTRAL,50.0
+today is a good day,POSITIVE,90.0
+"today is a bad day
+",NEGATIVE,90.0

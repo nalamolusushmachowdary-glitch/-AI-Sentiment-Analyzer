@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Sentiment Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>AI Sentiment Analyzer</h1>
+
+    <p class="subtitle">
+    Discover the mood behind your words ✨
+</p>
+
+    <form method="POST">
+        <textarea name="review" placeholder="Enter your review..." required></textarea>
+        <button type="submit">Analyze</button>
+    </form>
+
+    <div class="footer">
+    Made with ❤️ using Python & Flask
+</div>
+    {% if result %}
+    <div class="result">
+        <h2>Result</h2>
+        <p><strong>Sentiment:</strong> {{ result.label }}</p>
+        <p><strong>Confidence:</strong> {{ result.score }}%</p>
+    </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
