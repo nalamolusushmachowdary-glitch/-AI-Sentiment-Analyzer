@@ -1,5 +1,9 @@
 # 💖 AI Sentiment Analyzer
 
+## 📸 Application Screenshot
+
+![AI Sentiment Analyzer](images/ai-sentiment-analyzer.png)
+
 A simple and interactive web application built using **Python**, **Flask**, **HTML**, **CSS**, and **Pandas** that analyzes the sentiment of user reviews and classifies them as **Positive**, **Negative**, or **Neutral**.
 
 ## 🚀 Features
